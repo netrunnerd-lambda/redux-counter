@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: black;
+  color: lime;
+  font-family: monospace;
+}
+
+.counter {
+  margin: 4.20rem auto;
+  max-width: 420px;
+}
+
+.counter p {
+  font-size: 4.20rem;
+  line-height: 8rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.counter button {
+  background: lime;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-size: 2.10rem;
+  font-weight: bold;
+  margin: 4.20rem 0.5rem;
+  padding: 1rem;
+  transition: 0.5s;
+  min-width: 75px;
+}
+
+.counter button:hover {
+  background: green;
+}
